@@ -39,7 +39,7 @@ and running `demo.py` and `evaluate.py` with the `--alternate_corr` flag Note, t
 
 Other files and folder:
 - weights and cfg files for yolo were obtained from https://github.com/pjreddie/darknet 
-- Yolo weights can be downloaded from https://drive.google.com/drive/folders/1h9PqeZ3l5RUURJIxeNMXGt-Ilil3ngrO?usp=sharing
+- Yolo weights can be downloaded from https://drive.google.com/drive/folders/1h9PqeZ3l5RUURJIxeNMXGt-Ilil3ngrO?usp=sharing, I got this from here https://pjreddie.com/media/files/yolov3.weights
 - 1684366668.0944755.mp4 video for testing
 - stream.py- for streaming the video from the pi cam from https://singleboardblog.com/real-time-video-streaming-with-raspberry-pi/ 
 
