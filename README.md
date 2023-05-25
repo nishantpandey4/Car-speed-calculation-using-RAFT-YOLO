@@ -1,5 +1,5 @@
 # RAFT
-The package was made for ENPM 673 final project by group 13. The package is based on https://github.com/princeton-vl/RAFT. 
+The package is based on https://github.com/princeton-vl/RAFT. 
 # dependencies
 test2.yml file of the conda environment is provided.  
 or 
