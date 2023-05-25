@@ -56,6 +56,7 @@ Note:
 * We downloaded images online and annotated them for yolo training and testing but we could not get right output so we switched to existing trained models.
 
 Results:
+
 YOLO Result 
 
 ![WhatsApp Image 2023-05-18 at 21 46 47](https://github.com/nishantpandey4/Car-speed-calculation-using-RAFT-YOLO/assets/127569735/68c396cb-5d5a-4ad9-a9e3-cc173be12169)
