@@ -3,7 +3,8 @@ The package was made for ENPM 673 final project by group 13. The package is base
 # dependencies
 test2.yml file of the conda environment is provided.  
 or 
-create an environment with python 3.8 :
+create an environment with python 3.8.
+
 -conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 -conda install matplotlib tensorboard scipy opencv
 # Yolo Weights
