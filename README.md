@@ -57,8 +57,13 @@ Note:
 
 Results:
 YOLO Result 
+
 ![WhatsApp Image 2023-05-18 at 21 46 47](https://github.com/nishantpandey4/Car-speed-calculation-using-RAFT-YOLO/assets/127569735/68c396cb-5d5a-4ad9-a9e3-cc173be12169)
+
 RAFT Result
+
 ![WhatsApp Image 2023-05-18 at 09 18 20](https://github.com/nishantpandey4/Car-speed-calculation-using-RAFT-YOLO/assets/127569735/e242e34f-b973-4069-a793-6da5a22cfa44)
+
 Combined Result
+
 ![Screenshot (33)](https://github.com/nishantpandey4/Car-speed-calculation-using-RAFT-YOLO/assets/127569735/e2dc3549-a3fd-4e0f-87d5-dab31d3e1368)
