@@ -5,8 +5,9 @@ test2.yml file of the conda environment is provided.
 or 
 create an environment with python 3.8.
 
--conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
--conda install matplotlib tensorboard scipy opencv
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+
+conda install matplotlib tensorboard scipy opencv
 # Yolo Weights
 The weights for yolo need to be downloaded and need to be placed in the root folder.
 ## Demos
