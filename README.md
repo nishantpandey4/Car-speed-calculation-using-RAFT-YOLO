@@ -53,4 +53,12 @@ Note:
 - To visualize the motion vectors of the car uncomment line 51-56 in demo.py and 62-68 for inference.py
 - To visualize the bounding rectangle of the car uncomment line 133-137 in demo.py and 132-135 for inference.py
 - for live video streaming hardware is needed but we used line 210 of inference.py to do so. The IP address will change. 
-* We downloaded images online and annotated them for yolo training and testing but we could not get right output so we switched to 
+* We downloaded images online and annotated them for yolo training and testing but we could not get right output so we switched to existing trained models.
+
+Results:
+YOLO Result 
+![WhatsApp Image 2023-05-18 at 21 46 47](https://github.com/nishantpandey4/Car-speed-calculation-using-RAFT-YOLO/assets/127569735/68c396cb-5d5a-4ad9-a9e3-cc173be12169)
+RAFT Result
+![WhatsApp Image 2023-05-18 at 09 18 20](https://github.com/nishantpandey4/Car-speed-calculation-using-RAFT-YOLO/assets/127569735/e242e34f-b973-4069-a793-6da5a22cfa44)
+Combined Result
+![Screenshot (33)](https://github.com/nishantpandey4/Car-speed-calculation-using-RAFT-YOLO/assets/127569735/e2dc3549-a3fd-4e0f-87d5-dab31d3e1368)
