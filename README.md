@@ -2,11 +2,15 @@
 The package was made for ENPM 673 final project by group 13. The package is based on https://github.com/princeton-vl/RAFT. 
 # dependencies
 test2.yml file of the conda environment is provided.  
-The code has been tested with 
+or 
+create an environment with python 3.8 :
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+conda install matplotlib tensorboard scipy opencv
 # Yolo Weights
 The weights for yolo need to be downloaded and need to be placed in the root folder.
 ## Demos
-For running the demo using our trained dataset. 
+The code has been tested with 
+For running the demo using our trained model. 
 -python demo.py --model=models/enpm673_raft-kitti.pth --path=frames
 For running with videos.
 -python inference.py --model=models/enpm673_raft-kitti.pth
