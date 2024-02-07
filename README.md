@@ -1,5 +1,3 @@
-# RAFT
-The package is based on https://github.com/princeton-vl/RAFT. 
 # dependencies
 test2.yml file of the conda environment is provided.  
 or 
@@ -9,7 +7,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvi
 
 conda install matplotlib tensorboard scipy opencv
 # Yolo Weights
-The weights for yolo need to be downloaded and need to be placed in the root folder.
+The weights for YOLO need to be downloaded and placed in the root folder.
 ## Demos
 The code has been tested with 
 For running the demo using our trained model. 
@@ -27,23 +25,23 @@ You can evaluate a trained model using `evaluate.py`
 python evaluate.py --model=models/enpm673_raft-kitti.pth --dataset=kitti --mixed_precision
 ```
 ## Training
-We used the following training schedule in our paper (2 GPUs). Training logs will be written to the `runs` which can be visualized using tensorboard
+We used the following training schedule in our paper (2 GPUs). Training logs will be written to the `runs` which can be visualized using a tensorboard
 ```Shell
 ./train_standard.sh
 ```
-If you have a RTX GPU, training can be accelerated using mixed precision. You can expect similiar results in this setting (1 GPU)
+If you have an RTX GPU, training can be accelerated using mixed precision. You can expect similar results in this setting (1 GPU)
 ```Shell
 ./train_mixed.sh
 ```
 
-## (Optional) Efficent Implementation
-You can optionally use our alternate (efficent) implementation by compiling the provided cuda extension
+## (Optional) Efficient Implementation
+You can optionally use our alternate (efficient) implementation by compiling the provided Cuda extension
 ```Shell
 cd alt_cuda_corr && python setup.py install && cd ..
 ```
-and running `demo.py` and `evaluate.py` with the `--alternate_corr` flag Note, this implementation is somewhat slower than all-pairs, but uses significantly less GPU memory during the forward pass.
+and running `demo.py` and `evaluate.py` with the `--alternate_corr` flag Note, that this implementation is somewhat slower than all pairs, but uses significantly less GPU memory during the forward pass.
 
-Other files and folder:
+Other files and folders:
 - weights and cfg files for yolo were obtained from https://github.com/pjreddie/darknet 
 - Yolo weights can be downloaded from https://drive.google.com/drive/folders/1h9PqeZ3l5RUURJIxeNMXGt-Ilil3ngrO?usp=sharing, I got this from here https://pjreddie.com/media/files/yolov3.weights
 - 1684366668.0944755.mp4 video for testing
@@ -53,7 +51,7 @@ Note:
 - To visualize the motion vectors of the car uncomment line 51-56 in demo.py and 62-68 for inference.py
 - To visualize the bounding rectangle of the car uncomment line 133-137 in demo.py and 132-135 for inference.py
 - for live video streaming hardware is needed but we used line 210 of inference.py to do so. The IP address will change. 
-* We downloaded images online and annotated them for yolo training and testing but we could not get right output so we switched to existing trained models.
+* We downloaded images online and annotated them for YOLO training and testing but we could not get the right output so we switched to existing trained models.
 
 Results:
 
@@ -68,3 +66,5 @@ RAFT Result
 Combined Result
 
 ![Screenshot (33)](https://github.com/nishantpandey4/Car-speed-calculation-using-RAFT-YOLO/assets/127569735/e2dc3549-a3fd-4e0f-87d5-dab31d3e1368)
+
+### The package is based on https://github.com/princeton-vl/RAFT. 
