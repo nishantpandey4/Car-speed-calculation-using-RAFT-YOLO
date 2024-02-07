@@ -1,4 +1,4 @@
-# dependencies
+# Dependencies
 test2.yml file of the conda environment is provided.  
 or 
 create an environment with python 3.8.
